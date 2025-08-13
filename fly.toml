@@ -1,4 +1,4 @@
-app = "${FLY_APP_NAME}"
+app = "eternal-garden-32ca2d1c-d036-4e1c-9ebe-9aab115a55e1"
 
 [build]
 
@@ -11,6 +11,7 @@ min_machines_running = 0
 
 [env]
 NODE_ENV = 'production'
+DEPLOY_ID = '6ff75092-9453-47b4-8828-712b9fca78ce'
 
 [[vm]]
 memory = "512mb"
